@@ -63,6 +63,7 @@ def run
   when "exit"
     exit
   else "Please enter a command:"
+  end
       
   break if value == "exit"
   
