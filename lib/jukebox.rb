@@ -55,13 +55,13 @@ def run
   value = gets.chomp
   case value
   when "list"
-    "list"
+   puts  "list"
   when "play"
     "play"
   when "help"
     "help"
   when "exit"
-    exit
+    "exit"
   else "Please enter a command:"
   end
       
@@ -69,7 +69,7 @@ def run
   
   
 end
-  
+end
 
 
 
