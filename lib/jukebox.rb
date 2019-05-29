@@ -11,19 +11,20 @@ songs = [
 ]
 
 def help
-  puts " I accept the following commands:
+  puts 
+  " I accept the following commands:
 - help : displays this help message
 - list : displays a list of songs you can play
 - play : lets you choose a song to play
 - exit : exits this program"
 end 
-#####
+
 def list(songs)
   songs.each_with_index do |name , idx|
   puts "#{idx+1}. #{name}"
 
 end
-######  
+
 def play(songs)
   puts "Please enter a song name or number:"
   req = gets.chomp
@@ -37,8 +38,6 @@ else puts "Invalid input, please try again"
 end 
 end 
 
- 
-######
 def exit_jukebox
 puts "Goodbye"
 end
@@ -56,7 +55,7 @@ def run
   when "help"
     help
   when "exit"
-    exit
+    exit_jukebox
   else "Please enter a command:"
   end
       
