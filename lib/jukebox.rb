@@ -47,16 +47,16 @@ def run
   puts help
   loop do 
   puts "Please enter a command:"
-  value = gets.chomp
-  case value
-  when "list"
-   puts  list
-  when "play"
-    play
-  when "help"
-    help
-  when "exit"
-    exit_jukebox
+      value = gets.chomp
+      case value
+      when "list"
+       puts  list
+      when "play"
+        play
+      when "help"
+        help
+      when "exit"
+        exit_jukebox
   else "Please enter a command:"
   end
 break if value == "exit"
