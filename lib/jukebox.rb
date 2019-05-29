@@ -38,12 +38,18 @@ def play (song)
   if name == 
     
   else 
-    puts ""
+    puts "Invalid input, please try again"
     
     
 end
+ 
+######
+def exit_jukebox
+puts "Goodbye"
+end
 
-
+def run 
+  
 
 
 
