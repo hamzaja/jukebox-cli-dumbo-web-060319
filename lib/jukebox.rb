@@ -49,9 +49,9 @@ def run()
       value = gets.chomp
       case value
       when "list"
-       puts  list()
+       puts  list(songs)
       when "play"
-        play()
+        play(songs)
       when "help"
         help()
       when "exit"
