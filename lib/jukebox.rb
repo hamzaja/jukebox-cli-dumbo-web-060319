@@ -19,7 +19,7 @@ def help
 end 
 #####
 def list(song)
-
+puts song
 
 end
 ######  
