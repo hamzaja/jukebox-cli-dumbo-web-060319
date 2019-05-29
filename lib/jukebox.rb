@@ -20,7 +20,7 @@ end
 #####
 def list(song)
   song.each_with_index do |name , idx|
-  puts ""
+  puts "#{idx+1}. #{name}"
 
 end
 ######  
