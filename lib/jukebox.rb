@@ -44,7 +44,7 @@ puts "Goodbye"
 end
 
 def run
-  puts "help"
+  puts help
   loop do 
   puts "Please enter a command:"
   value = gets.chomp
