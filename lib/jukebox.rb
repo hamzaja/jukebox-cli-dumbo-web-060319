@@ -19,7 +19,8 @@ def help
 end 
 #####
 def list(song)
-puts song
+  song.each_with_index do |name , idx|
+  puts ""
 
 end
 ######  
