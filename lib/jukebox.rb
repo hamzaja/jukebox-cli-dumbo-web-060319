@@ -33,5 +33,19 @@ def list(song)
 end
 ######  
 def play (song)
-  puts"
+  puts"Please enter a song name or number:"
+  name = gets.chomp
+  if name == 
+    
+  else 
+    puts ""
+    
+    
 end
+
+
+
+
+
+
+
