@@ -50,7 +50,11 @@ end
 
 def run
   puts help
-  puts 
+  while value = "exit" 
+  puts "Please enter a command:"
+  value = gets.chomp
+  
+  
 end
   
 
