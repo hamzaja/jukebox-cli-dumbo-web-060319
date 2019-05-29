@@ -43,7 +43,7 @@ def exit_jukebox
 puts "Goodbye"
 end
 
-def run
+def runn
   puts help
   loop do 
   puts "Please enter a command:"
