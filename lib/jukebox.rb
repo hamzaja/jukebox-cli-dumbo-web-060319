@@ -42,20 +42,20 @@ def exit_jukebox()
 puts "Goodbye"
 end
 
-def run
-  puts help
+def run()
+  puts help()
   loop do 
   puts "Please enter a command:"
       value = gets.chomp
       case value
       when "list"
-       puts  list
+       puts  list()
       when "play"
-        play
+        play()
       when "help"
-        help
+        help()
       when "exit"
-        exit_jukebox
+        exit_jukebox()
   else "Please enter a command:"
   end
 break if value == "exit"
