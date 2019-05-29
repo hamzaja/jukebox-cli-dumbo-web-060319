@@ -53,7 +53,17 @@ def run
   loop do 
   puts "Please enter a command:"
   value = gets.chomp
-  if value
+  case value
+  when "list"
+    list
+  when "play"
+    play
+  when "help"
+    "help"
+  when "exit"
+    exit
+  else 
+      
   break if value == "exit"
   
   
