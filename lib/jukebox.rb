@@ -17,3 +17,8 @@ def help
 - play : lets you choose a song to play
 - exit : exits this program
 end 
+#####
+def list
+
+end
+  
