@@ -49,20 +49,20 @@ puts "Goodbye"
 end
 
 def run
-  puts help
+  puts "help"
   loop do 
   puts "Please enter a command:"
   value = gets.chomp
   case value
   when "list"
-    list
+    "list"
   when "play"
-    play
+    "play"
   when "help"
     "help"
   when "exit"
     exit
-  else 
+  else "Please enter a command:"
       
   break if value == "exit"
   
