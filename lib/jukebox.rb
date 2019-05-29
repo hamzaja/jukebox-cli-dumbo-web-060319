@@ -59,10 +59,7 @@ def run
     exit_jukebox
   else "Please enter a command:"
   end
-      
-  break if value == "exit"
-  
-  
+break if value == "exit"
 end
 end
 
